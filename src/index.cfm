@@ -2,7 +2,7 @@
 
 <h2>What is it?</h2>
 
-<p>This plugin will trim all form field parameters of any whitespace before or after values that have been entered into the field.</p>
+<p>This plugin will trim all form field values of any whitespace before or after values that have been entered into the field.</p>
 
 <h2>Latest Version</h2>
 
@@ -10,7 +10,7 @@
 
 <h2>Documentation</h2>
 
-<p>Forthcoming</p>
+<p>You're reading it!  ;)</p>
 
 <h2>Installation</h2>
 
