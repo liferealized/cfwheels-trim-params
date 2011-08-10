@@ -1,15 +1,15 @@
 <cfcomponent output="false" mixin="dispatch">
 
 	<cffunction name="init" access="public" returntype="any" output="false">
-		<cfset this.version = "1.0" />
+		<cfset this.version = "1.1.4,1.1.5" />
 		<cfreturn this />
 	</cffunction>
 	
 	<cffunction name="$createParams" access="public" returntype="struct" output="false">
-		<cfargument name="route" type="string" required="true">
-		<cfargument name="foundRoute" type="struct" required="true">
-		<cfargument name="formScope" type="struct" required="false" default="#form#">
-		<cfargument name="urlScope" type="struct" required="false" default="#url#">
+		<cfargument name="path" type="string" required="true">
+		<cfargument name="route" type="struct" required="true">
+		<cfargument name="formScope" type="struct" required="true">
+		<cfargument name="urlScope" type="struct" required="true">
 		<cfscript>
 			var loc = {};
 			// we need the original $createParams off of the . notation so we can pass argumentCollection 
